@@ -220,58 +220,54 @@ textarea {
 
 /* Start of my css for my form */
 
+
 body {
-   font-size: 1.333em;
-   line-height: 2.666em;
-   background-color: #FFEFD5; 
+font-size : 1.333em;
+line-height : 2.666em;
+background-color : #FFEFD5;
 }
-
 fieldset {
-  background-color:#FFE5B4;
-  margin: 25px;
-  padding: 5px;
- font-family: verdana, Geneva, sans-serif; 
- text-align: center;
+background-color : #FFE5B4;
+margin : 25px;
+padding : 5px;
+font-family : verdana, Geneva, sans-serif;
+text-align : center;
 }
-
-header { 
-  padding: 25px;
-  font-weight: bold;
-
+header {
+padding : 25px;
+font-weight : bold;
 }
 p {
-  margin-top: 15px; 
-  margin-bottom: 5px;
-  padding: 5px;
+margin-top : 15px;
+margin-bottom : 5px;
+padding : 5px;
 }
-/*layout for mobile*/
-@media screen and (max-width: 480px){
-
-body{
-  font-size: 1.5em;
-  line-height: 2.5em;
+@media screen and (max-width:480px) {
+body {
+font-size : 1.5em;
+line-height : 2.5em;
 }
 fieldset {
-  display: inline-flex;
-  width: auto;
+display : inline-flex;
+width : auto;
 }
-
 }
-@media screen and (min-width: 960px) {
-header { 
-  font-size: 25px;
-  font-weight: bold;
-
+@media screen and (min-width:960px) {
+header {
+font-size : 25px;
+font-weight : bold;
 }
 p {
-  margin-top: 15px; 
-  margin-bottom: 15px;
-  padding: 15px;
+margin-top : 15px;
+margin-bottom : 15px;
+padding : 15px;
+}
+fieldset {
+width : auto;
+}
 }
 
-fieldset {
-  width: auto;
-}
+
 
 
 
